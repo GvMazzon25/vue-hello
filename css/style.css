@@ -1,0 +1,16 @@
+/*GENERALS*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(113, 182, 243);
+    width: 100vw;
+    height: 100vh;
+}
+
+/*Container Section*/
+
