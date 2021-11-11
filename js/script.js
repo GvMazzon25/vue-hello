@@ -8,5 +8,13 @@ var app = new Vue({
     el: '#app',
     data: {
       message: 'Hello Vue!', 
+      colorClass: 'orange',
+      clickMe: 'Click Me',
+      image: 'http://pngimg.com/uploads/earth/earth_PNG21.png'
+    },
+    methods: {
+        changeColor() {
+            this.colorClass = this.colorClass === 'orange' ? 'lime': 'orange'
+        }
     }
   });
