@@ -7,9 +7,21 @@
 }
 
 body{
-    background-color: rgb(113, 182, 243);
+    background-image: url(../img/universo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100vw;
     height: 100vh;
+}
+
+/*Utilities*/
+
+.solid{
+    display: inline-block;
+}
+
+.hide{
+    display: none;
 }
 
 .flex{
@@ -52,4 +64,10 @@ body{
 
 h1{
     margin: 20px;
+}
+
+.blackBack{
+    width: 200px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
 }

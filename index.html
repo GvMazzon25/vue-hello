@@ -10,11 +10,14 @@
 </head>
 <body>
     <div id="app" class="container">
-        <h1 :class='colorClass' >{{ message }}</h1> 
-        <button @click='changeColor'>{{ clickMe }}</button>
+        <div class="blackBack">
+            <h1 :class='colorClass' >{{ message }}</h1>
+        </div>  
+        <button @click='change'>{{ clickMe }}</button>
         <section class="flex">
             <div class="box">
-                <img :src="image" alt="">
+                <img :src="earthImage" :class="earthClass" alt="">
+                <img :src="marsImage" :class="marsClass" alt="">
             </div>
         </section>
       </div>
