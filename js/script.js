@@ -7,7 +7,7 @@ Aggiungere alla pagina un’immagine, presa anch’essa da un data. */
 var app = new Vue({
     el: '#app',
     data: {
-      message: 'Hello Vue!', 
+      message: 'Hello World!', 
       colorClass: 'lime',
       clickMe: 'Click Me',
       marsClass: 'hide',
