@@ -12,5 +12,25 @@ body{
     height: 100vh;
 }
 
-/*Container Section*/
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 
+/*Container Section*/
+.container{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    position: relative;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
